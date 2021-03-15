@@ -1,0 +1,27 @@
+.table{
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  color: #6a5d5d;
+}
+
+.table tr{
+  display: flex;
+  justify-content: space-between;
+}
+
+.table__country{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.table__cases{
+  font-weight: bold;
+}
+
+.table td{
+  padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd){
+  background-color: #f3f2f8;
+}
